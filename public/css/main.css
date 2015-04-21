@@ -1,0 +1,39 @@
+.content {
+  text-align: center;
+}
+
+#bio {
+  display: inline-block;
+  width: 45%;
+}
+
+#social {
+  display: inline-block;
+  width:45%;
+}
+
+#grape {
+  width:100%;
+}
+
+body {
+  background: url("/images/flag.svg") no-repeat left center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media screen and (max-width: 750px) {
+  #bio {
+    display: inline-block;
+    margin-top: 10px;
+    width: 90%;
+  }
+
+  #social {
+    display: inline-block;
+    margin-top: 10px;
+    width: 90%;
+  }
+}
